@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1{
+    color: hotpink;
+}
+.halfwidth{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.halfwidth img{
+    width: 100%;
+    background-size: contain;
+}
+.header{
+    background-image: url(/images/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+section{
+    height: 650px;
+    margin-bottom: 10px;
+}
+#HeaderText{
+    margin-top: 10%;
+}
+.biography{
+    background-image: url(/images/biography-bg.png);
+}
+#dream_text{
+    margin-top: 20%;
+}
+.last_weak{
+    background-image: url(/images/latest-work-bg.png);
+    background-size: auto;
+}
+.last_weak h1{
+    margin-top: 10%;
+    color: black;
+    text-align: center;
+}
+.last_weak_img{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    background-position: center;
+}
+.last_weak_img img{
+    width: 100%;
+}
+.last_section{
+    text-align: center;
+}
+.mail{
+    background-image: linear-gradient(45deg, salmon, hotpink);
+    width: 40%;
+    margin: 0% 30%;
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
+}
+.mail p{
+    font-size: 10px;
+}
+.text{
+    width: 30%;
+    margin: 0% 35%;
+}
